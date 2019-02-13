@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --coverage --collectCoverageFrom='*js'"
+    "test": "jest --coverage --collectCoverageFrom='*js'",
+    "test:watch": "npm run test -- --watchAll"
   },
   "keywords": [],
   "author": "Rogerio Angeliski <angeliski@hotmail.com> (https://github.com/angeliski)",
