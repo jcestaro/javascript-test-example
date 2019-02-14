@@ -18,7 +18,7 @@ const alunosOrdenadosPelaNotaAsc = [
   
 
 test('calcula a média de um aluno', () => {
-  expect(Reflect.apply(notaUtil.media, aluno)).toBe(8);
+  expect(Reflect.apply(notaUtil.media, aluno, [])).toBe(8);
 });
 
 test('calcula a média da turma', () => {
