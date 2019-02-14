@@ -1,4 +1,4 @@
-const media = () => {
+const media = function () {
   return (this.primeiraProva + this.segundaProva) / 2;
 };
 
