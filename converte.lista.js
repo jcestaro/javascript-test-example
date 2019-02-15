@@ -1,5 +1,5 @@
 function nome(pessoas) {
-  
+  pessoas.map(nome => nome)
 }
 
 function nomeComNota(pessoas) {
